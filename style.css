@@ -1,0 +1,322 @@
+* {
+    /* удаление всех margin и padding */
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    /* импорт шрифта inter light 300 */
+    font-family: 'inter';
+    font-style: normal;
+    font-weight: 300;
+    src: url(font/Inter-Light.woff2);
+}
+
+@font-face {
+    /* импорт шрифта inter regular 400 */
+    font-family: 'inter';
+    font-style: normal;
+    font-weight: 400;
+    src: url(font/Inter-Regular.woff2);
+}
+
+@font-face {
+    /* импорт шрифта inter medium 500 */
+    font-family: 'inter';
+    font-style: normal;
+    font-weight: 500;
+    src: url(font/Inter-Medium.woff2);
+}
+
+@font-face {
+    /* импорт шрифта inter semibold 600 */
+    font-family: 'inter';
+    font-style: normal;
+    font-weight: 600;
+    src: url(font/Inter-SemiBold.woff2);
+}
+
+@font-face {
+    /* импорт шрифта inter bold 700 */
+    font-family: 'inter';
+    font-style: normal;
+    font-weight: 700;
+    src: url(font/Inter-Bold.woff2);
+}
+
+@font-face {
+    /* импорт шрифта inter extrabold 800 */
+    font-family: 'inter';
+    font-style: normal;
+    font-weight: 800;
+    src: url(font/Inter-ExtraBold.woff2);
+}
+
+.container {
+    /* контейнер на 1140 с центровкой контента посередине страницы */
+    margin: auto;
+    max-width: 1140px;
+}
+
+body {
+    margin: 32px 0 0 0;
+}
+
+a {
+    color: #222222;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
+header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+header svg {
+    fill: #001F7E;
+    transition: ease 0.1s;
+}
+
+header svg:hover {
+    fill: #032ca6;
+}
+
+.top_navigation {
+    display: flex;
+}
+
+.top_navigation_item {
+    font-family: 'inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #222222;
+    margin: 0 32px;
+    transition: ease 0.1s;
+}
+
+.top_navigation_item:hover {
+    color: #F53855;
+}
+
+.header_button_sign {
+    font-family: 'inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F53855;
+    padding: 12px 24px;
+    border: solid 1px;
+    border-radius: 25px;
+    transition: ease 0.1s;
+}
+
+.header_button_sign:hover {
+    color: #ffffff;
+    background-color: #F53855;
+}
+
+.top_header {
+    margin: 96px 0 18px 0;
+}
+
+.top_header_main {
+    font-family: 'inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.top_header_sub {
+    font-family: 'inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    color: #4F5665;
+}
+
+.top_content {
+    background-image: url(img/png/Hero.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    min-height: 800px;
+    display: flex;
+    justify-content: end;
+    margin-bottom: 96px;
+}
+
+.top_content_form {
+    max-width: 413px;
+    background-color: #fff;
+    margin: auto;
+    margin-bottom: 0;
+    border-radius: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
+}
+
+.top_content_form_header {
+    font-family: 'inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 44px;
+    align-items: center;
+    text-align: center;
+    color: #494949;
+    padding-top: 40px;
+}
+
+.top_content_form_text {
+    padding-top: 24px;
+    font-family: 'inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #575757;
+}
+
+.top_content_form_time {
+    margin-top: 24px;
+    margin-bottom: 52px;
+    display: flex;
+    justify-content: center;
+}
+
+.top_content_form_time_hour-min-sec {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.time_display {
+    display: flex;
+    justify-content: center;
+    font-family: 'inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #001F7E;
+}
+
+#join_program>div>div:nth-child(2)>span.time_display {
+    margin: 0 30px 0 30px;
+    position: relative;
+}
+
+#join_program>div>div:nth-child(2)>span.time_display::before {
+    content: url(img/svg/dots.svg);
+    position: absolute;
+    top: 0px;
+    left: -17px;
+}
+
+#join_program>div>div:nth-child(2)>span.time_display::after {
+    content: url(img/svg/dots.svg);
+    position: absolute;
+    top: 0px;
+    left: 62px;
+}
+
+.time_text {
+    display: flex;
+    justify-content: center;
+    font-family: 'inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #9C9C9C;
+}
+
+.top_content_form_input_header {
+    margin-bottom: 4px;
+    margin-left: 16px;
+    font-family: 'inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #ED1C2E;
+}
+
+.top_content_form_input {
+    font-family: 'inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #787878;
+    min-width: 320px;
+    min-height: 50px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #001F7E;
+    border-radius: 15px;
+    padding: 0 0 0 47px;
+    margin-bottom: 16px;
+    position: relative;
+}
+
+#your_name {
+    background-image: url(img/svg/icon_input_name.svg);
+    background-repeat: no-repeat;
+    background-position: 20px center;
+}
+
+#your_email {
+    background-image: url(img/svg/icon_input_mail.svg);
+    background-repeat: no-repeat;
+    background-position: 20px center;
+}
+
+.input_name_email {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.top_content_form_button {
+    margin: 32px 0 40px 0;
+    font-family: 'inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 14px 29px;
+    color: #fff;
+    border: none;
+    background: #ED1C2E;
+    box-shadow: 0px 4px 30px #F4606D;
+    border-radius: 38px;
+    transition: ease 0.1s;
+}
+
+.top_content_form_button:hover {
+    box-shadow: 0px 4px 35px #e51325;
+}
