@@ -131,7 +131,9 @@ header svg:hover {
 }
 
 .top_header {
-    margin: 96px 0 18px 0;
+    max-width: 896px;
+    margin-top: 96px;
+    margin-bottom: 18px;
 }
 
 .top_header_main {
@@ -319,4 +321,389 @@ header svg:hover {
 
 .top_content_form_button:hover {
     box-shadow: 0px 4px 35px #e51325;
+}
+
+.dreams_header {
+    font-family: 'inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #0B132A;
+    margin-bottom: 32px;
+}
+
+.dreams_edu_logos {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 162px;
+}
+
+.dreams_edu_logos_item {
+    transition: ease 0.2s;
+}
+
+.dreams_edu_logos_item:hover {
+    transform: scale(105%);
+}
+
+.reduce_finance_burden {
+    background-image: url(img/svg/background_raindrop.svg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    min-height: 1158px;
+}
+
+.reduce_finance_burden_header {
+    font-family: 'inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    color: #222222;
+    max-width: 832px;
+    margin: auto;
+    margin-bottom: 66px;
+    position: relative;
+    padding-top: 11px;
+}
+
+.reduce_finance_burden_header::after {
+    content: '';
+    width: 211px;
+    height: 2px;
+    background: #052484;
+    position: absolute;
+    top: 130px;
+    right: 296px;
+    border-radius: 2px;
+}
+
+.reduce_finance_burden_sub {
+    font-family: 'inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #7D7987;
+    margin: auto;
+    max-width: 599px;
+    margin-bottom: 92px;
+}
+
+.reduce_finance_burden_cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.reduce_finance_burden_cards_item {
+    min-width: 545px;
+    min-height: 290px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    padding: 50px 32px;
+    box-sizing: border-box;
+    transition: ease 0.2s;
+}
+
+.reduce_finance_burden_cards_item:hover {
+    box-shadow: 0px 0px 50px rgba(0, 31, 126, 0.25);
+}
+
+body>main>section.reduce_finance_burden>section>section>article:nth-child(1) {
+    background-image: url(img/png/first_img.png);
+    background-repeat: no-repeat;
+    background-position: right 32px center;
+}
+
+body>main>section.reduce_finance_burden>section>section>article:nth-child(2) {
+    background-image: url(img/png/second_img.png);
+    background-repeat: no-repeat;
+    background-position: right 32px center;
+}
+
+body>main>section.reduce_finance_burden>section>section>article:nth-child(3) {
+    margin: auto;
+    margin-top: 48px;
+    background-image: url(img/png/three_img.png);
+    background-repeat: no-repeat;
+    background-position: right 32px center;
+}
+
+body>main>section.reduce_finance_burden>section>section>article:nth-child(2)>div>img {
+    margin-right: 23px;
+}
+
+body>main>section.reduce_finance_burden>section>section>article:nth-child(3)>div>img {
+    margin-right: 23px;
+}
+
+.reduce_finance_burden_cards_item p {
+    font-family: 'inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #7D7987;
+    margin-top: 32px;
+    max-width: 296px;
+}
+
+.reduce_finance_burden_cards_item_title {
+    display: flex;
+}
+
+.reduce_finance_burden_cards_item_title h2 {
+    max-width: 227px;
+    font-family: 'inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    color: #001F7E;
+}
+
+.reduce_finance_burden_text_button {
+    margin: 100px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.get_acces_to_the_training {
+    padding: 16px 112px;
+    font-family: 'inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    border: none;
+    background: #001F7E;
+    box-shadow: 0px 4px 30px #A5BAFC;
+    border-radius: 38px;
+    max-width: 600px;
+    margin-bottom: 25px;
+    transition: ease 0.2s;
+}
+
+.get_acces_to_the_training:hover {
+    background: #002DB9;
+}
+
+.reduce_finance_burden_span {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #052484;
+}
+
+.able_to_pay {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-image: url(img/png/able_to_pay_illustr.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+}
+
+.able_to_pay_header {
+    font-family: 'inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 61px;
+    color: #0B132A;
+    max-width: 472px;
+    margin-bottom: 52px;
+}
+
+.able_to_pay_text {
+    font-family: 'inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #4F5665;
+    max-width: 498px;
+    margin-bottom: 52px;
+}
+
+.able_to_pay_button {
+    cursor: pointer;
+    font-family: 'inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+    color: #FFFFFF;
+    background: #F53838;
+    border: none;
+    border-radius: 20px;
+    width: 250px;
+    padding: 17px 59px;
+    filter: drop-shadow(0px 20px 54px rgba(245, 56, 56, 0.35));
+    transition: ease 0.2s;
+}
+
+.able_to_pay_button:hover {
+    background: #FF3B2D;
+    filter: drop-shadow(0px 20px 54px rgba(245, 56, 56, 0.65));
+}
+
+.advantages_and_disadvantages {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 53px 105px;
+    min-height: 250px;
+    filter: drop-shadow(0px 0px 62px rgba(0, 0, 0, 0.05));
+    background: #FFFFFF;
+    border-radius: 40px;
+    margin-bottom: 160px;
+}
+
+.advantages,
+.disadvantages {
+    display: flex;
+    flex-direction: column;
+    font-family: 'inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #0B132A;
+    position: relative;
+}
+
+.advantages div {
+    display: flex;
+}
+
+.advantages::before {
+    position: absolute;
+    content: '';
+    width: 1px;
+    height: 144px;
+    top: 0px;
+    right: -75px;
+    background-color: #EEEFF2;
+}
+
+.disadvantages div {
+    display: flex;
+}
+
+.advantages img {
+    margin-right: 12px;
+}
+
+.disadvantages img {
+    margin-right: 12px;
+}
+
+.advantages p {
+    margin: auto;
+    margin-left: 0;
+}
+
+.disadvantages p {
+    margin: auto;
+    margin-left: 0;
+}
+
+body>main>section.advantages_and_disadvantages.container>article.advantages>div:nth-child(2) {
+    margin-top: 32px;
+}
+
+body>main>section.advantages_and_disadvantages.container>article.disadvantages>div:nth-child(2) {
+    margin-top: 32px;
+}
+
+footer {
+    display: flex;
+    background: rgba(250, 250, 250, 1);
+    padding: 113px 0 114px 0;
+}
+
+.footer_links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_wraper {
+    display: flex;
+}
+
+.about_contacts_links {
+    max-width: 314px;
+}
+
+.about_contacts_links svg {
+    margin-bottom: 32px;
+}
+
+body>footer>section>section.about_contacts_links>div {
+    margin-top: 32px;
+}
+
+.about_contacts_links {
+    margin-right: 259px;
+}
+
+.about_and_contacts_text {
+    font-family: 'inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #4F5665;
+}
+
+.rights {
+    font-family: 'inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #AFB5C0;
+}
+
+.footer_links {
+    min-width: 567px;
+}
+
+.footer_links h4 {
+    font-family: 'inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #0B132A;
+    margin-bottom: 24px;
+}
+
+.footer_links a {
+    font-family: 'inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #4F5665;
+    transition: ease 0.2s;
+}
+
+.footer_links a:hover {
+    color: #F53838;
+}
+
+.footer_links li {
+    margin-bottom: 16px;
 }
